@@ -77,7 +77,7 @@ export default function ProductCard() {
   ];
 
   return (
-    <div className="grid grid-cols-3 p-7 flex-wrap justify-around gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 p-7 flex-wrap justify-around gap-8">
       {products.map((product) => (
         <Link to={`/product-page/${product.id}`} key={product.id}>
           <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg">
