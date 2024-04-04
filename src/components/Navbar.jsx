@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="w-full border-b py-5 flex justify-between items-center sm:px-12 px-6 relative">
       <div>
         <h1 className="text-3xl text-primary font-semibold cursor-pointer">
-          <Link to="/"><span className="font-bold text-primary/90">Me</span> სამკაულე</Link>
+          <Link to="/"><span className="font-bold text-primary/90">Me</span>სამკაულე</Link>
         </h1>
       </div>
       <nav className="hidden gap-6 mt-1 md:flex">
