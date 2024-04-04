@@ -9,15 +9,15 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 3, ease: "easeInOut" }}
       >
-        <h1 className="text-3xl font-bold">
-          მაღალი ხარისხის სამკაულები
-        </h1>
+        <h1 className="text-3xl font-bold">მაღალი ხარისხის სამკაულები</h1>
         <p className="text-gray-500 text-xl mt-2 font-semibold">
           ყველაზე მაღალი ხარისხის სამკაულები ყველაზე დაბალ ფასად!
         </p>
-        <m.button className="py-3 px-5 bg-primary  text-white rounded-md mt-8 w-full text-lg md:w-48 font-semibold">
-          <Link to="/product-page">დაათვალიერე</Link>
-        </m.button>
+        <Link to="/product-page">
+          <m.button className="py-3 px-5 bg-primary  text-white rounded-md mt-8 w-full text-lg md:w-48 font-semibold">
+            დაათვალიერე
+          </m.button>
+        </Link>
       </m.div>
       <m.img
         initial={{ opacity: 0, y: 100 }}

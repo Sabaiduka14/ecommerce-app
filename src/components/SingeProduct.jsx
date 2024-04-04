@@ -47,7 +47,7 @@ const SingleProduct = () => {
 
   return (
     <div className="max-w-2xl mx-auto mb-12 mt-8">
-      <div className="w-full mx-auto bg-white rounded-md overflow-hidden shadow-md">
+      <div className="w-full mx-auto bg-white/60 rounded-md overflow-hidden shadow-md">
         <div className="mb-6 flex w-full gap-2 px-6 justify-between">
           <div className="p-4">
             <img

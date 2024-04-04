@@ -5,19 +5,19 @@ export default function Navbar() {
 
   const links = [
     {
-      name: "სამკაულები",
+      name: "დაათვალიერე",
       href: "/product-page",
     },
   ];
 
   return (
-    <header className="w-full border-b py-5 flex justify-between items-center sm:px-12 px-6 relative">
+    <header className="w-full py-5 flex justify-between items-center sm:px-12 px-6 relative">
       <div>
-        <h1 className="text-3xl text-primary font-semibold cursor-pointer">
-          <Link to="/"><span className="font-bold text-primary/90">Me</span>სამკაულე</Link>
+        <h1 className="md:text-3xl text-2xl text-primary font-semibold cursor-pointer">
+          <Link to="/">სამკაულები</Link>
         </h1>
       </div>
-      <nav className="hidden gap-6 mt-1 md:flex">
+      <nav className="gap-6 mt-1 md:flex">
         {links.map((link, index) => (
           <div key={index}>
             <Link
