@@ -43,7 +43,7 @@ const SingleProduct = () => {
     return null;
   }
 
-  const messengerURL = `https://m.me/საბა.იდუკაშვილი`;
+  const messengerURL = `https://www.facebook.com/profile.php?id=100053056426371`;
 
   return (
     <div className="max-w-2xl mx-auto mb-12 mt-8">
