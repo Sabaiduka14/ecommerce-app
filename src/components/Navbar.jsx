@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
+import briliant from '../assets/briliant.png'
 
 export default function Navbar() {
 
@@ -11,10 +12,10 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full py-5 flex justify-between items-center sm:px-12 px-6 relative">
+    <header className="w-full border-b py-5 flex justify-between items-center sm:px-12 px-6 relative">
       <div>
         <h1 className="md:text-3xl text-2xl text-primary font-semibold cursor-pointer">
-          <Link to="/">სამკაულები</Link>
+          <Link to="/"><img className="w-24" src={briliant} alt="სამკაულები" /></Link>
         </h1>
       </div>
       <nav className="gap-6 mt-1 md:flex">
